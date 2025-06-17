@@ -9,47 +9,44 @@
   <Privileged>false</Privileged>
   <Support>https://github.com/yannisalexiou/appstore-webhook-proxy/issues</Support>
   <Project>https://github.com/yannisalexiou/appstore-webhook-proxy</Project>
-  <Overview>&amp;lt;b&amp;gt;&#x1F9E9; App Store Webhook Proxy&amp;lt;/b&amp;gt;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&#xD;
+  <Overview>&#xD;
+**App Store Webhook Proxy**&#xD;
 &#xD;
-&amp;lt;b&amp;gt;Your webhook endpoint will be available at: /appstore-webhook&amp;lt;/b&amp;gt;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&#xD;
+**Your webhook endpoint will be available at: `/appstore-webhook`**&#xD;
 &#xD;
-Get real-time notifications for your app&#x2019;s App Store status changes &#x2014; like &amp;lt;b&amp;gt;Ready for Review&amp;lt;/b&amp;gt;, &amp;lt;b&amp;gt;Rejected&amp;lt;/b&amp;gt;, or &amp;lt;b&amp;gt;Approved&amp;lt;/b&amp;gt; &#x2014; delivered directly to &amp;lt;b&amp;gt;Slack&amp;lt;/b&amp;gt; and/or &amp;lt;b&amp;gt;Microsoft Teams&amp;lt;/b&amp;gt;.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&#xD;
+Get real-time notifications for your app&#x2019;s App Store status changes &#x2014; like **Ready for Review**, **Rejected**, or **Approved** &#x2014; delivered directly to **Slack** and/or **Microsoft Teams**.&#xD;
 &#xD;
-Apple introduced official App Store Connect Webhooks at WWDC 2025. This proxy makes it easy to forward those webhooks to your team&#x2019;s tools of choice.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&#xD;
+Apple introduced official App Store Connect Webhooks at WWDC 2025. This proxy makes it easy to forward those webhooks to your team&#x2019;s tools of choice.&#xD;
 &#xD;
-&amp;lt;b&amp;gt;&#x26A0;&#xFE0F; Note:&amp;lt;/b&amp;gt; This container must be &amp;lt;b&amp;gt;accessible from the internet&amp;lt;/b&amp;gt; to receive webhook events from Apple. You can expose it directly or use a reverse proxy (e.g., NGINX or Traefik).&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&#xD;
+**&#x26A0;&#xFE0F; Note:** This container must be **accessible from the internet** to receive webhook events from Apple. You can expose it directly or use a reverse proxy (e.g., NGINX or Traefik).&#xD;
 &#xD;
-&amp;lt;b&amp;gt;&#x1F527; Configuration:&amp;lt;/b&amp;gt;&amp;lt;br&amp;gt;&#xD;
+**Configuration:**&#xD;
 &#xD;
-&amp;lt;ul&amp;gt;&#xD;
-&amp;lt;li&amp;gt;&amp;lt;b&amp;gt;SHARED_SECRET&amp;lt;/b&amp;gt; &#x2013; Required. Used to verify incoming webhook requests.&amp;lt;/li&amp;gt; &#xD;
-&amp;lt;li&amp;gt;&amp;lt;b&amp;gt;SLACK_WEBHOOK_URL&amp;lt;/b&amp;gt; &#x2013; Optional. Webhook URL for Slack.&amp;lt;/li&amp;gt; &#xD;
-&amp;lt;li&amp;gt;&amp;lt;b&amp;gt;TEAMS_WEBHOOK_URL&amp;lt;/b&amp;gt; &#x2013; Optional. Webhook URL for Microsoft Teams.&amp;lt;/li&amp;gt;&#xD;
-&amp;lt;li&amp;gt;&amp;lt;b&amp;gt;APP_STORE_URL&amp;lt;/b&amp;gt; &#x2013; Optional. URL to your app on the App Store, shown in the notification.&amp;lt;/li&amp;gt;&#xD;
-&amp;lt;li&amp;gt;&amp;lt;b&amp;gt;TIMEZONE&amp;lt;/b&amp;gt; &#x2013; Optional. Used to localize timestamps in messages. Example: &amp;lt;code&amp;gt;Europe/Athens&amp;lt;/code&amp;gt;&amp;lt;/li&amp;gt;&#xD;
-&amp;lt;/ul&amp;gt;&#xD;
-&amp;lt;b&amp;gt;&#x1F4C4; Guides &amp;amp; Source:&amp;lt;/b&amp;gt;&amp;lt;br&amp;gt;&#xD;
+- **`SHARED_SECRET`** &#x2013; Required. Used to verify incoming webhook requests.  &#xD;
+- **`SLACK_WEBHOOK_URL`** &#x2013; Optional. Webhook URL for Slack.  &#xD;
+- **`TEAMS_WEBHOOK_URL`** &#x2013; Optional. Webhook URL for Microsoft Teams.  &#xD;
+- **`APP_STORE_URL`** &#x2013; Optional. URL to your app on the App Store, shown in the notification.  &#xD;
+- **`TIMEZONE`** &#x2013; Optional. Used to localize timestamps in messages. Example: `Europe/Athens`&#xD;
 &#xD;
-&amp;lt;ul&amp;gt; &#xD;
-&amp;lt;li&amp;gt;&amp;lt;a href="https://medium.com/p/4785b8306c81" target="_blank"&amp;gt;Slack Integration Guide&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &#xD;
-&amp;lt;li&amp;gt;&amp;lt;a href="https://medium.com/p/af3c8c840c15" target="_blank"&amp;gt;Teams Integration Guide&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &#xD;
-&amp;lt;li&amp;gt;&amp;lt;a href="https://github.com/yannisalexiou/appstore-webhook-proxy" target="_blank"&amp;gt;GitHub Repository&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &#xD;
-&amp;lt;/ul&amp;gt;</Overview>
+**&#x1F4C4; Guides &amp;amp; Source:**&#xD;
+- [GitHub Repository](https://github.com/yannisalexiou/appstore-webhook-proxy)&#xD;
+</Overview>
   <Category>Productivity: Tools:</Category>
-  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <WebUI>http://[IP]:[PORT:38888]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/yannisalexiou/appstore-webhook-proxy/refs/heads/main/documentation/assets/AppStoreConnectWebhookProxyIcon.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1750106883</DateInstalled>
+  <DateInstalled>1750155748</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
+  <Config Name="Host Port 1" Target="3000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">38888</Config>
   <Config Name="SHARED_SECRET" Target="SHARED_SECRET" Default="" Mode="" Description="Required. (Just a random string) Secret used to verify incoming App Store Webhook requests. You define it when creating the webhook in App Store Connect, then set the same value here.&#13;&#10;Set it here: https://appstoreconnect.apple.com/access/integrations/webhooks" Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="TEAMS_WEBHOOK_URL" Target="TEAMS_WEBHOOK_URL" Default="" Mode="" Description="Required if integrating with Microsoft Teams. Webhook URL for sending notifications to Microsoft Teams. Leave empty if not used.&#13;&#10;Example: https://your-teams.webhook.url&#13;&#10;Create it here: https://learn.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook?tabs=newteams%2Cdotnet" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="TEAMS_WEBHOOK_URL" Target="TEAMS_WEBHOOK_URL" Default="" Mode="" Description="Required if integrating with Microsoft Teams. Webhook URL for sending notifications to Microsoft Teams. Leave empty if not used.&#13;&#10;Example: https://your-teams.webhook.url&#13;&#10;Create it here: https://learn.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook?tabs=newteams,dotnet" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="SLACK_WEBHOOK_URL" Target="SLACK_WEBHOOK_URL" Default="" Mode="" Description="Required if integrating with Slack. Webhook URL for sending notifications to Slack. Leave empty if not used.&#13;&#10;Example: https://hooks.slack.com/services/XXX/YYY/ZZZ&#13;&#10;Create it here: https://api.slack.com/messaging/webhooks" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="APP_STORE_URL" Target="APP_STORE_URL" Default="" Mode="" Description="(Optional) Public URL of your app on the App Store. Included in notifications to make it easier to access the app&#x2019;s page.&#13;&#10;Example: https://apps.apple.com/app/id123456789" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="TIMEZONE" Target="TIMEZONE" Default="UTC" Mode="" Description="(Optional) Timezone used to format timestamps in messages. Use a valid IANA timezone, e.g. Europe/Athens." Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="TIMEZONE" Target="TIMEZONE" Default="UTC" Mode="" Description="(Optional) Timezone used to format timestamps in messages. Use a valid IANA timezone, e.g. Europe/Athens." Type="Variable" Display="always" Required="false" Mask="false">UTC</Config>
   <TailscaleStateDir/>
 </Container>
