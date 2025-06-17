@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maintainer>
+  <Icon>https://gravatar.com/avatar/c93735d1994346485c1593e5808d3750?size=256</Icon>
+  <Profile>
+    iOS Tech Lead passionate about developer tooling and automation. 
+    I create lightweight, production-ready Docker containers focused on developer workflows — like real-time App Store Connect webhook proxies for Slack and Microsoft Teams.
+    
+    All my containers follow a clear purpose: minimal, secure, and easy to integrate into CI/CD or self-hosted environments.
+  </Profile>
+  <DonateLink>https://coff.ee/alexiou</DonateLink>
+  <DonateText>If my work helps your workflow, consider supporting it ☕</DonateText>
+</Maintainer>
