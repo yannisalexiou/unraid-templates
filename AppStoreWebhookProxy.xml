@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/yannisalexiou/appstore-webhook-proxy/issues</Support>
+  <Support>https://forums.unraid.net/topic/191280-support-yannisalexiou-app-store-webhook-proxy/</Support>
   <Project>https://github.com/yannisalexiou/appstore-webhook-proxy</Project>
   <Overview>&#xD;
 **App Store Webhook Proxy**&#xD;
