@@ -32,7 +32,7 @@ Apple introduced official App Store Connect Webhooks at WWDC 2025. This proxy ma
 - [GitHub Repository](https://github.com/yannisalexiou/appstore-webhook-proxy)&#xD;
 </Overview>
   <Category>Productivity: Tools:</Category>
-  <WebUI>http://[IP]:[PORT:38888]</WebUI>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/yannisalexiou/appstore-webhook-proxy/refs/heads/main/documentation/assets/AppStoreConnectWebhookProxyIcon.png</Icon>
   <ExtraParams/>
